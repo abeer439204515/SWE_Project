@@ -1,0 +1,41 @@
+body 
+{background-color: rgba(240,234,210,0.05);
+font-family:Courier, monospace;}
+
+
+ .shoping{
+	width: 350px;
+    height: 320px;
+	text-align: center;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 5%;
+    border: 2.5px solid rgba(169,132,103,0.5);	
+	border-radius: 50px 20px;
+	}
+
+ .shoping h1 {
+    text-align: center;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    width: 100%;
+    font-family:Courier, monospace;
+  
+}
+
+ .shoping img{
+    text-align: center;
+    border: 3px solid rgb(173,193,120);
+    width: 94%;
+}
+
+#main {
+  	display: flex;
+	justify-content: center;
+    flex-direction: row;
+    margin-bottom:3%;
+}
+
+.shoping a:hover {
+    opacity: 0.7;}
