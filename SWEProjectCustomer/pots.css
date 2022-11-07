@@ -1,0 +1,115 @@
+body {
+    background-color: rgba(240, 234, 210, 0.05);
+    
+    font-family: Courier, monospace;
+    
+  }
+  
+  h2{
+    margin-top: 10%;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .card {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.676);
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 3em;
+    text-align: center;
+    font-family: Courier, monospace;
+  
+  
+  }
+  
+  .card img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 300px;
+  }
+  
+  .price {
+    color: rgba(136, 131, 131, 0.87);
+    font-size: 22px;
+  }
+  
+  .card button {
+    border-radius: 20px;
+    border: none;
+    color: zrgb(228, 149, 149);
+    padding: 10px;
+    width: 70%;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+  
+  }
+  
+  .card button:hover {
+    background-color: rgb(152, 185, 128);
+    color: rgb(243, 238, 238);
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(163, 202, 154, 0.8);
+    transform: scale(95%, 95%);
+    transition: transform 0.3s;
+  }
+  
+  
+  .row {
+  
+    display: felx;
+    clear: both;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    flex: 50%;
+  
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .description h1 { 
+  display: inline; 
+  margin-right: 8%;
+  margin-bottom: 10px; 
+  }
+  .description{
+  padding: 2%;
+  background-color: #DDE5B6;
+  width:auto ; 
+  height: 14em;
+  margin-bottom: 50px;
+  text-align: center;
+  }
+  .description p { 
+  margin-left: 15%; 
+  font-size: 20px; 
+  margin-right: 19%; 
+  margin-top: 24px;
+  }
+  
+  .description h1{ 
+  margin-left: 15%;
+  }
+  
+  .sort { 
+  display: inline ; 
+  justify-content: right;
+  font-weight: bold; }
+  
+  
+      main{	
+      margin-top:15%;
+      }
