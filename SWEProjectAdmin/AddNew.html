@@ -1,0 +1,82 @@
+<html>
+  <head>
+    <title>Add product</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="provider.css">
+    
+    <style>
+body{
+  margin: 0;
+  width:100%;
+  padding:0;
+  height:100%;
+}
+
+form{
+width: 50%;
+margin:auto;
+}
+.contant{
+margin-top:8%;
+margin-bottom:4%; 
+}
+fieldset{
+  border: 2px solid #DDE5B6;
+  border-radius: 5px;
+}
+
+.title{
+    text-align: center;
+    width: fit-content;
+    padding: 20px;
+    margin: 10px auto;
+    font-size: 2rem;
+    z-index: 5;
+    background-color: #fff;
+    color:#A98467;
+}
+
+</style>
+  </head>
+    <body>
+       
+       
+        
+<main>
+<div class="contant">
+        <h3 class="title" >Add New Plant</h3>
+        <form action="AddNew.php" method="POST">
+       <fieldset>
+       <legend><img src="logo.PNG" alt="Logo" class="Logo" width="10%" height="40%"> </legend>
+            <label for="job">Plant name:</label> <br>
+            <input type="text" id="name" name="name" required><br>
+            
+          <label for="cate">Image:</label> <br>
+          <input type="text" id="cate" name="img"  required><br>
+          
+            <label for="cate">Category:</label> <br>
+          <select name="cate">
+            <option value="Indoor">Indoor</option>
+            <option value="Outdoor">Outdoor</option>
+          </select>
+          
+        <br>
+          <label for="sal">Price:</label> <br>
+          <input type="text" id="sal" name="price" required><br>
+          
+          <label for="des">Description:</label>  <br>
+          <textarea name="des" rows="10" cols="64" required> </textarea> <br>
+          
+               
+          <br> <br>
+        <button type="submit">Submit</button>
+   </fieldset>
+   </form>
+ 
+  </div>
+</main>  
+
+        </body>
+
+</html>
